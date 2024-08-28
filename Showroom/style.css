@@ -60,6 +60,7 @@ body{
 .button-red{
     padding: 5%;
     background-color: red;
+    color: aliceblue;
 }
 .button-green{
     padding: 5%;
