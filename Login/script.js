@@ -16,9 +16,6 @@ function login() {
     window.location.href = "../Loja/loja.html";
   } else {
     document.getElementById("modal").style.display = "block";
-    let text = document.getElementById("modal-text");
-
-    //logica para se o nome e senha forem incorretos
   }
 }
 
