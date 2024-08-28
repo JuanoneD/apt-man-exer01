@@ -4,7 +4,7 @@
     "descricao": "Produto 1",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3cExnsB3qat_a-YqS4zThCXsiR4TWk2f4_-Do7MXhw&s",
     "preco": 10.0,
-    "status": "Disponiveis",
+    "status": true,
     "nome":"Body Splash",
     "quantidade": "23"
   },
@@ -13,7 +13,7 @@
     "descricao": "Produto 2",
     "imagem": "https://storage.alboom.ninja/sites/7474/albuns/343827/fotografia-de-produtos-campinas-fotografo-publicidade-aloha-life-11.jpg?t=1541510096",
     "preco": 20.0,
-    "status": "Disponiveis",
+    "status": true,
     "nome":"Loção Hidratante",
     "quantidade": "20"
   },
@@ -22,7 +22,7 @@
     "descricao": "Produto 3",
     "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/KT000775/d16cd307-54b6-46f1-95bc-8e76d8841f23-kit-beleza-na-web-hialuronico-duo-2-produtos.png",
     "preco": 30.0,
-    "status": "Disponiveis",
+    "status": false,
     "nome":"Kit Hidraluronico",
     "quantidade": "20"
   }
