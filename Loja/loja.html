@@ -44,22 +44,26 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <a href="../Carrinho/carrinho.html">Ir para carrinho</a>
-    <div>
-      <h5 id="perfil"></h5>
-      <div class="idPerfil">
-        Protocolo atual:
-        <p id="idPerfil"></p>
+    <header style="display:flex;flex-direction: row;align-items: center; width: 90%;margin:auto;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;padding:1%;border-radius:10px;justify-content: space-between;">
+      <a href="../Carrinho/carrinho.html">Ir para carrinho</a>
+      <div>
+        <h5 id="perfil"></h5>
+        <div class="idPerfil">
+          Protocolo atual:
+          <p id="idPerfil"></p>
+        </div>
       </div>
-    </div>
-    <h1>Loja</h1>
-    <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
-    <br />
-    <h2>Produtos</h2>
-    <br />
-    <div>
-      <div id="produtos-container" class="cards-place"></div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+      <h1>Loja</h1>
+      <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
+      <br />
+    </header>
+    <section style="display:flex;flex-direction: column;align-items: center; width: 90%;margin:auto;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;padding:1%;border-radius:10px;margin-top:20px">
+      <h2>Produtos</h2>
+      <br />
+      <div>
+        <div id="produtos-container" class="cards-place"></div>
+      </div>
+      <script src="script.js"></script>
+    </section>
+    </body>
 </html>

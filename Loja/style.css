@@ -65,10 +65,14 @@ body{
 .button-red{
     padding: 3%;
     background-color: red;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
 }
 .button-green{
     padding: 3%;
     background-color: green;
     color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
 }

@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const imagem = document.createElement("img");
         imagem.src = produto.imagem;
+        imagem.alt = produto.imagem;
 
         const cardBody = document.createElement("div");
         cardBody.className = "card-body";
@@ -42,9 +43,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const btnAdicionarAoCarrinho = document.createElement("a");
         btnAdicionarAoCarrinho.href = "#";
-        btnAdicionarAoCarrinho.className =
-          "button-green btn-adicionar-ao-carrinho";
-        btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
+        if(produto.status){
+          btnAdicionarAoCarrinho.className ="button-green btn-adicionar-ao-carrinho";
+          btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
+        }else{
+          btnAdicionarAoCarrinho.className ="button-red btn-adicionar-ao-carrinho";
+          btnAdicionarAoCarrinho.textContent = "Indisponivel";
+        }
         btnAdicionarAoCarrinho.setAttribute("data-indice", index);
 
         card_header.appendChild(imagem);
