@@ -25,5 +25,59 @@
     "status": false,
     "nome":"Kit Hidraluronico",
     "quantidade": "20"
+  },
+  {
+    "id": 4,
+    "descricao": "Produto 4",
+    "imagem": "https://www.amend.com.br/on/demandware.static/-/Sites-siteCatalog_Amend/default/dw13a36842/Kits/Beleza%20na%20bolsa/kit-amend-beleza-na-bolsa-i-3-produtos-mascara-hidratacao-mascara-reconstrucao-e-leave-in-kit-500.png",
+    "preco": 30.0,
+    "status": false,
+    "nome":"Kit Beleza nos Bolsos",
+    "quantidade": "20"
+  },
+  {
+    "id": 5,
+    "descricao": "Produto 5",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/KT002661/bd22b9f0-9167-42d9-9945-e46818619b32-kt002661.png",
+    "preco": 10.0,
+    "status": true,
+    "nome":"Kit Darrow",
+    "quantidade": "23"
+  },
+  {
+    "id": 6,
+    "descricao": "Produto 6",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/product/KT001996/97821b67-49fa-46c2-9f23-271d27624134-kit-beleza-na-web-pele-e-cabelo-4-produtos.png",
+    "preco": 20.0,
+    "status": true,
+    "nome":"Kit Cabelo",
+    "quantidade": "20"
+  },
+  {
+    "id": 7,
+    "descricao": "Produto 7",
+    "imagem": "https://cdn.awsli.com.br/2507/2507835/produto/236325559/beleza_vitamina-k2---600mg---1000px-478hsdifh0.png",
+    "preco": 20.0,
+    "status": true,
+    "nome":"Vitamina d",
+    "quantidade": "20"
+  },
+  {
+    "id": 8,
+    "descricao": "Produto 8",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/KT001446/6c7f2f6b-f355-404f-a73e-a2b1ca5c1636-kit-griffus-qer-beauty-cosmetics-curly-styling-home-care-trio-3-produtos.png",
+    "preco": 20.0,
+    "status": true,
+    "nome":"KIT Quer",
+    "quantidade": "20"
+  },
+  {
+    "id": 9,
+    "descricao": "Produto 9",
+    "imagem": "https://cdn.awsli.com.br/600x700/2727/2727339/produto/264666353/capsulas-da-beleza-3f54yk57fo.png",
+    "preco": 20.0,
+    "status": true,
+    "nome":"Drogas",
+    "quantidade": "20"
   }
 ]
