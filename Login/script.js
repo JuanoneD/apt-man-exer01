@@ -1,5 +1,7 @@
 let span = document.getElementsById("close");
 
+
+
 function login() {
   var nome = $("#nome").val();
   var senha = $("#senha").val();
@@ -21,4 +23,13 @@ function login() {
 
 function CloseModal(){
   document.getElementById("modal-error").style.display = "none";
+}
+
+function showpassword(){
+  let password = document.getElementById("senha");
+  if (password.type === "password") {
+    password.type = "text";
+  } else {
+    password.type = "password";
+  }
 }

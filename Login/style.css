@@ -65,3 +65,9 @@ input {
   padding: 1%;
 }
 
+#showPass{
+  position: absolute;
+  top: 4px;
+  right: 2px;
+  cursor: pointer;
+}
