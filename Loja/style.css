@@ -38,7 +38,11 @@ body{
     border-top-right-radius: 7%;
 }
 .card-footer{
-    padding: 5%;
+    padding: 1%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .card-body{
@@ -59,12 +63,12 @@ body{
 }
 
 .button-red{
-    padding: 5%;
+    padding: 3%;
     background-color: red;
     color: aliceblue;
 }
 .button-green{
-    padding: 5%;
+    padding: 3%;
     background-color: green;
     color: aliceblue;
 }

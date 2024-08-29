@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const card_header = document.createElement("div");
         card_header.className= "card-header";
 
+        const card_footer = document.createElement("div");
+        card_footer.className = "card-footer";
 
         const imagem = document.createElement("img");
         imagem.src = produto.imagem;
@@ -45,13 +47,17 @@ document.addEventListener("DOMContentLoaded", function () {
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
         btnAdicionarAoCarrinho.setAttribute("data-indice", index);
 
+        card_header.appendChild(imagem);
+
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
-        cardBody.appendChild(btnAdicionarAoCarrinho);
 
-        card_header.appendChild(imagem);
+        card_footer.appendChild(btnAdicionarAoCarrinho);
+
+
         card.appendChild(card_header);
         card.appendChild(cardBody);
+        card.appendChild(card_footer);
 
         produtosContainer.appendChild(card);
       });
