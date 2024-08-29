@@ -15,10 +15,10 @@ function login() {
 
     window.location.href = "../Loja/loja.html";
   } else {
-    document.getElementById("modal").style.display = "block";
+    document.getElementById("modal-error").style.display = "block";
   }
 }
 
 span.onclick = function() {
-  document.getElementById("modal").style.display = "none";
+  document.getElementById("modal-error").style.display = "none";
 }
