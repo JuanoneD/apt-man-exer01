@@ -1,4 +1,4 @@
-let span = document.getElementsByClassName("close")[0];
+let span = document.getElementsById("close");
 
 function login() {
   var nome = $("#nome").val();
@@ -19,6 +19,6 @@ function login() {
   }
 }
 
-span.onclick = function() {
+function CloseModal(){
   document.getElementById("modal-error").style.display = "none";
 }
