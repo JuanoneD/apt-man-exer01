@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const imagem = document.createElement("img");
         imagem.src = produto.imagem;
-        imagem.className = "card-img-top";
+        imagem.className = "card-header";
 
         const cardBody = document.createElement("div");
         cardBody.className = "card-body";
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const btnAdicionarAoCarrinho = document.createElement("a");
         btnAdicionarAoCarrinho.href = "#";
         btnAdicionarAoCarrinho.className =
-          "btn btn-primary btn-adicionar-ao-carrinho";
+          "button-green";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
         btnAdicionarAoCarrinho.setAttribute("data-indice", index);
 
