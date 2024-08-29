@@ -19,12 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
       produtos.map((produto, index) => {
         const card = document.createElement("div");
         card.className = "card";
-        card.style.width = "18rem";
-        card.style.marginRight = "10px";
+
+        const card_header = document.createElement("div");
+        card_header.className= "card-header";
+
 
         const imagem = document.createElement("img");
         imagem.src = produto.imagem;
-        imagem.className = "card-header";
 
         const cardBody = document.createElement("div");
         cardBody.className = "card-body";
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const btnAdicionarAoCarrinho = document.createElement("a");
         btnAdicionarAoCarrinho.href = "#";
         btnAdicionarAoCarrinho.className =
-          "button-green";
+          "button-green btn-adicionar-ao-carrinho";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
         btnAdicionarAoCarrinho.setAttribute("data-indice", index);
 
@@ -48,7 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
         cardBody.appendChild(cardText);
         cardBody.appendChild(btnAdicionarAoCarrinho);
 
-        card.appendChild(imagem);
+        card_header.appendChild(imagem);
+        card.appendChild(card_header);
         card.appendChild(cardBody);
 
         produtosContainer.appendChild(card);
@@ -60,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "click",
     ".btn-adicionar-ao-carrinho",
     function () {
+      alert("adicionado ao carrinho");
       const indexDoProduto = $(this).data("indice");
       const produtoSelecionado = produtos[indexDoProduto];
       let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
